@@ -1,0 +1,15 @@
+VdpCollectiblesNFTMarket
+  1. Fee de creador
+  2. Fee del mercado
+  3. Fee maxima de la venta -> a definir
+  4. Agregar colecciones
+  5. Poner en venta NFT de una coleccion
+    Se debe transferir al contrato del mercado el nft hasta que se venda. Se debe fijar un precio para venderlo
+  7. Modificar una oferta de venta
+    Se debe poder modificar el precio de una oferta de venta.
+  6. Cancelar una oferta de venta
+    Se debe transferir devuelta el NFT al user
+  7. Comprar un NFT
+    Atencion a las diferentes tipos de blockchains. Ejemplo con la red de binance se puede comprar solamente con
+    WBNB, incluso cuando compra con BNB lo que se hace es depositar en el contrato de WBNB el valor que envio para
+    comprar el nft para que luego pueda ser transferido al vendedor. Ver si en las demas blockchains tmb se puede
